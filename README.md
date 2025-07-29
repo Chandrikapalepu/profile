@@ -71,35 +71,6 @@ npm start
 
 ## 🎨 Customization
 
-### Adding Team Members
-
-Edit the `teamMembers` array in `src/components/team.component.ts`:
-
-```typescript
-{
-  name: 'Your Name',
-  position: 'Your Position',
-  bio: 'Your bio description',
-  image: 'https://your-image-url.com',
-  linkedin: 'https://linkedin.com/in/yourprofile',
-  twitter: 'https://twitter.com/yourhandle'
-}
-```
-
-### Adding Clients
-
-Edit the `featuredClients` array in `src/components/clients.component.ts`:
-
-```typescript
-{
-  name: 'Client Name',
-  logo: 'https://client-logo-url.com',
-  description: 'Project description',
-  industry: 'Industry Type',
-  testimonial: 'Client testimonial',
-  testimonialAuthor: 'Author Name, Title'
-}
-```
 
 ### Styling
 
@@ -130,7 +101,6 @@ The website is fully responsive with breakpoints for:
 - Responsive typography
 
 ### Team Component
-- Grid layout for team members
 - Professional profile cards
 - Social media links
 
@@ -146,7 +116,6 @@ The website is fully responsive with breakpoints for:
 
 ## 🎯 Performance Features
 
-- Lazy loading of images
 - Optimized bundle size
 - Smooth animations and transitions
 - Mobile-optimized performance
